@@ -1,0 +1,19 @@
+{
+  "name": "algorithm_notes",
+  "version": "1.0.0",
+  "description": "notes for learning algorithme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkiwi2019/algorithm_notes.git"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samkiwi2019/algorithm_notes/issues"
+  },
+  "homepage": "https://github.com/samkiwi2019/algorithm_notes#readme"
+}
