@@ -44,13 +44,13 @@
 const findContentChildren = (children, cookies) => {
     children.sort((a, b) => a - b);
     cookies.sort((a, b) => a - b);
-    let children_count = 0,
+    let children_count = 0, // an index and also a counter.
         cookies_count = 0;
     while (children_count < children.length && cookies_count < cookies.length) {
         // when current child matchs the cookie's value, it indicates we fed a child.
         // so let's move to next one.
         if (children[children_count] <= cookies[cookies_count]) children_count++;
-        // whatever current cookie is a answer, we have to move to next one.
+        // Regardless of whether the current cookie matches, we must move to the next one.
         cookies_count++;
     }
     return children_count;
