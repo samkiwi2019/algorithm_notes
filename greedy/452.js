@@ -29,7 +29,7 @@
  * points[i].length == 2
  * -231 <= xstart < xend <= 231 - 1
  *
- * Stretage
+ * strategy
  *
  * original: [[10,16],[2,8],[1,6],[7,12]]
  * sorted: [[1,6],[2,8],[7,12],[10,16]]

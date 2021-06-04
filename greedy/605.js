@@ -21,8 +21,7 @@
  * There are no two adjacent flowers in flowerbed.
  * 0 <= n <= flowerbed.length
  *
- * Stretage:
- *
+ * strategy:
  * [1,0,0,0,0,0,1] could be a good example for this case.
  * just image that when we travals the array, we have to check current item has no neighbor with a flower.
  * So, the third one could be an available spot. once we get a spot, we can make counter + 1 or the target number - 1

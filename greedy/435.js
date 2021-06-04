@@ -23,7 +23,7 @@
  * intervals[i].length == 2
  * -2 * 104 <= starti < endi <= 2 * 10**4
  *
- * Stretage:
+ * strategy:
  * I’d like to explain with the array [[1,2],[2,3],[3,4],[1,3]],
  * if the array is disorder array, I think it is imposibile to get a solusion.
  * so, firstly we need to sort it. but how?  based on start number or end number ?

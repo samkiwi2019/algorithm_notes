@@ -22,7 +22,7 @@
  *
  *
  *
- * Statege：
+ * strategy
  *
  * Just think about the problem,  we need to slice the string into many groups and every group doesn't have letters in the rest of groups.
  * Every group should be unique.
