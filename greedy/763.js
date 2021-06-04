@@ -49,7 +49,7 @@
     { startIndex: 21, count: 1, endIndex: 21, label: 'l' }
     ]
 
-    we can start codeing now.
+    we can start coding now.
 */
 
 /**
@@ -77,7 +77,6 @@ var partitionLabels = function (s) {
         result = [],
         prev = items[0].endIndex;
     for (let i = 1; i < items.length; i++) {
-        // 当前元素如果和前一个元素 就将前一个prev变为比较结果中 end的最大值 满足最小拆分的需求
         // when current element has an intersection with prev element.
         // the intersection scope should be extended to the bigger one of two scope.
         // I.E.  [16, 19] [17, 22]  => [16, 22]
